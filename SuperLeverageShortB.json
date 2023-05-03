@@ -1,0 +1,33 @@
+{
+  "strategy_name": "SuperLeverageShortB",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": 0.05,
+      "trailing_stop_positive_offset": 0.06,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 5
+    },
+    "buy": {
+      "liquidation_buffer": 0.1,
+      "buy_rsi": 14
+    },
+    "sell": {
+      "sell_rsi": 76
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.3,
+      "163": 0.112,
+      "397": 0.067,
+      "1693": 0
+    },
+    "stoploss": {
+      "stoploss": -0.342
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-04-29 04:24:52.291171+00:00"
+}
