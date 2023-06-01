@@ -50,7 +50,7 @@ class SuperLeverageShortB(IStrategy):
     }
 
     # Stoploss:
-    stoploss = -0.035
+    stoploss = -0.356
 
     # Trailing stop:    
     trailing_stop: bool = False
